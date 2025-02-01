@@ -1,0 +1,15 @@
+{
+  "name": "image-gallery",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
